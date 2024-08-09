@@ -102,6 +102,10 @@ p.pera-education,
 
 }
 
+.mobil-v {
+    display: none;
+}
+
 @media(max-width:1024px) {
     .faka {
         width: 30%;
@@ -203,7 +207,7 @@ p.pera-education,
     }
 
     .pera {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         line-height: 1;
     }
 
@@ -220,5 +224,33 @@ p.pera-education,
     .project-talk p {
         font-size: 1rem;
         word-spacing: 0rem;
+    }
+
+    .mobil-v {
+        display: block;
+        margin: auto;
+        width: 12rem;
+        height: 17rem;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .blaffing h1 {
+        font-size: 3rem;
+    }
+
+    .education,
+    .panga,
+    .project {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 16rem;
     }
 }
